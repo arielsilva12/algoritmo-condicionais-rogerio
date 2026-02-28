@@ -1,7 +1,9 @@
 #Ler três números, verificar e escrever quantos números iguais existem entre os números
-from utils_lista import ler_tres_inteiros
+from utils_io import obter_inteiro
 
-numero1, numero2, numero3 = ler_tres_inteiros()
+numero1 = obter_inteiro('Digite um número: ')
+numero2 = obter_inteiro('Digite outro número: ')
+numero3 = obter_inteiro('Digite só mais esse número: ')
 
 if numero1 == numero2 == numero3:
     print('Os 3 números são iguais!')

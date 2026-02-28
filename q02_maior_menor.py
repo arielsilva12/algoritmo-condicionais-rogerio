@@ -1,7 +1,8 @@
 #Ler dois números, verificar e escrever o maior e o menor entre os números lidos
-from utils_lista import ler_dois_inteiros
+from utils_io import obter_inteiro
 
-numero1, numero2 = ler_dois_inteiros()
+numero1 = obter_inteiro('Digite um número: ')
+numero2 = obter_inteiro('Digite mais esse número: ')
 
 maior = max(numero1, numero2)
 menor = min(numero1, numero2)

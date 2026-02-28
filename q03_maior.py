@@ -1,6 +1,9 @@
-from utils_lista import ler_tres_inteiros
+from utils_io import obter_inteiro
 
-num1, num2, num3 = ler_tres_inteiros() #entrada, com uma função que criei no utils_lista
+num1 = obter_inteiro('Digite um núumero: ')
+num2 = obter_inteiro('Digite um número: ')
+num3 = obter_inteiro('Dogote só mais esse número: ')
+
 maior = max(num1, num2, num3) #pegar o maior número
 
 print(f'O maior número é o {maior}')

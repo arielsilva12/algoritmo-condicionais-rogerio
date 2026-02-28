@@ -1,4 +1,6 @@
-numero = int(input('Digite um número de 2 dígitos: '))
+from utils_io import obter_inteiro
+
+numero = obter_inteiro('Digite um número de 2 dígitos: ')
 
 dezena = numero // 10
 unidade = numero % 10

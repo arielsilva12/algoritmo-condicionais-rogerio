@@ -1,7 +1,9 @@
 #Leia 3 (três) números e escreva-os em ordem crescente
-from utils_lista import ler_tres_inteiros
+from utils_io import obter_inteiro
 
-n1, n2, n3 = ler_tres_inteiros()
+n1 = obter_inteiro('Digite um número: ')
+n2 = obter_inteiro('Digite um número: ')
+n3 = obter_inteiro('Digite um número: ')
 
 numeros = [n1, n2, n3]
 
