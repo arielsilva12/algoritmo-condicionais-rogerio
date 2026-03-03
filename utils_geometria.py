@@ -14,9 +14,9 @@ def classificar_triangulo_lado(a: int, b: int, c: int) -> str:
     
 def verificar_triangulo_angulo(angulo1, angulo2, angulo3):
     if angulo1 + angulo2 + angulo3 == 180:
-        return 'Sim, é triângulo!'
+        return True
     else:
-        return 'Não é um triângulo!'
+        return False
     
 def classificar_triangulo_angulo(angulo1: int, angulo2:int, angulo3:int) -> str:
     if angulo1 == 90 or angulo2 == 90 or angulo3 == 90:

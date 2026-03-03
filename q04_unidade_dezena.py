@@ -1,11 +1,15 @@
 from utils_io import obter_inteiro
 
-numero = obter_inteiro('Digite um número de 2 dígitos: ')
+def calcular_dezena_unidade(numero):
+    dezena = numero // 10
+    unidade = numero % 10
+    if dezena == unidade:
+        print(f"O algarismo da dezena {dezena} é igual ao algarismo da unidade {unidade}")
+    else:
+        print(f'O algarismo da dezena {dezena} é diferente do algarismo da unidade {unidade}')
 
-dezena = numero // 10
-unidade = numero % 10
+def main():
+    numero = obter_inteiro('Digite um número de 2 dígitos: ')
 
-if dezena == unidade:
-    print("O algarismo da dezena é igual ao algarismo da unidade: ")
-else:
-    print('O algarismo da dezena é diferente do algarismo da unidade: ')
+    calcular_dezena_unidade(numero)
+main()

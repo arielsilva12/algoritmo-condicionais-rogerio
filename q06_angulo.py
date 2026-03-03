@@ -12,9 +12,7 @@ def main():
         print(f'E o tipo do triângulo é do tipo {tipo}')
     else:
         print('Não é um triângulo, pois a soma não é 180°.')
-    
-if __name__ == "__main__":
-    main()
+main()
 
 
     

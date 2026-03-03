@@ -12,5 +12,4 @@ def main():
         print(f'E o tipo do triângulo é {tipo}')
     else:
         print('Não, os lados não formam um triângulo!')
-if __name__ == "__main__":
-    main()
+main()
